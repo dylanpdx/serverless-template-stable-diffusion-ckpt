@@ -17,10 +17,8 @@ If you want to customize beyond the prebuilt model:
 
 ### Additional Steps (outside of quickstart guide)
 
-1. Create your own private repo and copy the files from this template repo into it. You'll want a private repo so that your huggingface keys are secure.
-2. Create huggingface account to get permission to download and run [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) text-to-image model.
-  - Accept terms and conditions for the use of the v1-4 [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4)
-3. Edit the `dockerfile` in your forked repo with `ENV HF_AUTH_TOKEN=your_auth_token`
+1. Create your own private repo and copy the files from this template repo into it. You'll want a private repo so that your model's URL is secure.
+2. Edit the `dockerfile` in your forked repo and change `CKPT_FILE_URL` to the URL where your .ckpt file is hosted
 
 
 # Helpful Links
